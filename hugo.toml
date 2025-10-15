@@ -1,0 +1,48 @@
+baseURL = 'https://redsorb.org/'
+languageCode = 'en-us'
+title = 'Reds Orb'
+theme = 'whiteplain'
+copyright = "&copy; Copyright 2025 Red Alvarado"
+
+# This is displayer in About page.
+[params.author]
+  name = "Red Alvarado"
+  # Gravatar or Abatar image
+  #gravatar = "Gravatar email or MD5 Hash"
+  avatar = "/images/avatar.JPG"
+
+  #socials
+  linkedin = "saraalva7"
+  github = "willow-red"
+  email = "spookysuds@gmail.com"
+
+
+
+# Header Menu
+[[menu.main]]
+  name = "Categories"
+  identifier = "categories"
+  url = "/categories/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  identifier = "tags"
+  url = "/tags/"
+  weight = 2
+[[menu.main]]
+  name = "Archives"
+  identifier = "archives"
+  url = "/archives/"
+  weight = 3
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  url = "/about/"
+  weight = 4
+
+  # Footer Menu
+[[menu.footer]]
+  name = "About"
+  weight = 1
+  identifier = "about"
+  url = "/about/"
