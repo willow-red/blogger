@@ -4,6 +4,11 @@ title = 'Reds Orb'
 theme = 'whiteplain'
 copyright = "&copy; Copyright 2025 Red Alvarado"
 
+#Caches
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # This is displayer in About page.
 [params.author]
   name = "Red Alvarado"
